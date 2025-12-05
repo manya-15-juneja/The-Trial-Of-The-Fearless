@@ -180,22 +180,30 @@
             color: #cccccc;
         }
     </style>
+
 </head>
 
 <body>
     <header>
+        
         <nav>
             <div class="logo">Battlefield</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="feature.html">Features</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
         <div class="hero-content">
+            <input type="text" id="nameInput" placeholder="Enter your name">
+<button id="welcomeBtn">Submit</button>
+
+<h2 id="welcomeMessage"></h2>
+
             <h1>Battlefield</h1>
             <p>Experience All-Out Warfare Like Never Before</p>
             <a href="feature.html" class="btn">Discover More</a>
@@ -244,6 +252,7 @@
     <footer>
         <p>Contact us on battlefield.com</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
